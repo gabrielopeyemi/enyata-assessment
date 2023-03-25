@@ -15,7 +15,7 @@ export default function Layout({children}) {
 
 
     return (
-        <div className='bg-white flex'>
+        <div className='bg-white flex relative'>
             <div className='w-[60px] md:w-[272px] bg-oxfordBlue h-screen'>
                 <div className='w-full flex justify-center py-8'>
                     <Logo className='w-[40px] md:w-[107px] md:h-[46px]' />
@@ -38,9 +38,9 @@ export default function Layout({children}) {
                     ))}
                 </ul>
             </div>
-            <main className='md:w-[calc(100%_-_272px)] w-[calc(100%_-_60px)] text-black'>
+            <main className='md:w-[calc(100%_-_272px)] w-[calc(100%_-_60px)] text-black relative overflow-y-scroll h-screen'>
                 <Header />
-                <div className='mx-1 xl:mx-[26px]'>
+                <div className='mx-1 xl:mx-[26px] py-[75px]'>
                     {children}
                 </div>
             </main>

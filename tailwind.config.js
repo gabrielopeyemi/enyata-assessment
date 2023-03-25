@@ -15,7 +15,8 @@ module.exports = {
       plumWeb: '#FFA9EC',
       mindaro: '#FDFFA9',
       forestGreen: '#00992B',
-      coolgray: '#A4A7B7'
+      coolgray: '#A4A7B7',
+      platinum: '#E5E5E5'
       
     },
     fontSize: {

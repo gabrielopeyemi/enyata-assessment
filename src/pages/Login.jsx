@@ -7,12 +7,6 @@ import Logo from '../components/logo/Logo';
 export default function Login() {
   return (
     <React.Fragment>
-      {/* <Head>
-        <title>Login | StarWars</title>
-        <meta name="description" content="all about star wars" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head> */}
       <main className='w-full flex items-center h-full '>
           <div className='w-[480px] bg-oxfordBlue h-screen flex justify-center items-center'>
             <Logo className='w-[386px] h-[167px]' />
