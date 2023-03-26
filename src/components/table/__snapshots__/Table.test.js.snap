@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table component renders snapshot correctly 1`] = `
+<DocumentFragment>
+  <h2
+    class=" text-coolgray text-md mb-[31px] "
+  >
+    Films
+  </h2>
+  <div
+    class="relative overflow-x-auto shadow-md sm:rounded-lg border border-antiFlashWhite"
+  >
+    <table
+      class="w-full text-sm text-left text-gray-500 bg-white"
+    >
+      <thead
+        class="text-xs text-gray-700 uppercase bg-gray-50"
+      >
+        <tr>
+          <th
+            class="p-4"
+            scope="col"
+          >
+            <div
+              class="flex items-center"
+            >
+              <input
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
+                id="checkbox-all-search"
+                type="checkbox"
+              />
+              <label
+                class="sr-only"
+              >
+                Header 1
+              </label>
+            </div>
+          </th>
+          <th
+            class="px-2 capitalize text-coolgray text-md font-normal mx-2 whitespace-nowrap"
+            scope="col"
+          >
+            Header 2
+          </th>
+          <th
+            class="px-2 capitalize text-coolgray text-md font-normal mx-2 whitespace-nowrap"
+            scope="col"
+          >
+            Header 3
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="bg-white hover:bg-antiFlashWhite border-b cursor-pointer border-platinum dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+        >
+          <td
+            class="w-4 p-4"
+          >
+            <div
+              class="flex items-center"
+            >
+              <input
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2 "
+                id="checkbox-table-search-1"
+                type="checkbox"
+              />
+              <label
+                class="sr-only"
+              >
+                checkbox
+              </label>
+            </div>
+          </td>
+          <td
+            class="px-2 py-4 whitespace-nowrap"
+          >
+            Film 1
+          </td>
+          <td
+            class="px-2 py-4 whitespace-nowrap"
+          >
+            <time
+              datetime="1640995200000"
+            >
+              1/1/22
+            </time>
+          </td>
+          <td
+            class="px-2 py-4 whitespace-nowrap"
+          >
+            180 CM
+          </td>
+        </tr>
+        <tr
+          class="bg-white hover:bg-antiFlashWhite border-b cursor-pointer border-platinum dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+        >
+          <td
+            class="w-4 p-4"
+          >
+            <div
+              class="flex items-center"
+            >
+              <input
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2 "
+                id="checkbox-table-search-1"
+                type="checkbox"
+              />
+              <label
+                class="sr-only"
+              >
+                checkbox
+              </label>
+            </div>
+          </td>
+          <td
+            class="px-2 py-4 whitespace-nowrap"
+          >
+            Film 2
+          </td>
+          <td
+            class="px-2 py-4 whitespace-nowrap"
+          >
+            <time
+              datetime="1643673600000"
+            >
+              2/1/22
+            </time>
+          </td>
+          <td
+            class="px-2 py-4 whitespace-nowrap"
+          >
+            175 CM
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;

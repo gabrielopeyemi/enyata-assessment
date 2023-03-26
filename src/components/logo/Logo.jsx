@@ -5,7 +5,7 @@ export default function Logo({className}) {
   return (
     <img 
         src={Img} 
-        alt={''}
+        alt={'Logo'}
         className={className} 
     />
   )

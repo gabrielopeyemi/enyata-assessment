@@ -3,7 +3,7 @@ import useSWR from 'swr'
 import { fetcher } from '../api';
 import Layout from '../components/layout/Layout';
 import Table from '../components/table/Table';
-import Preloader from './../components/preloader/Preloader'
+import Preloader from '../components/preloader/Preloader'
   
 
 export default function Starship() {

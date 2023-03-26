@@ -3,7 +3,7 @@ import useSWR from 'swr'
 import { fetcher } from '../api';
 import Layout from '../components/layout/Layout';
 import Table from '../components/table/Table';
-import Preloader from './../components/preloader/Preloader'
+import Preloader from '../components/preloader/Preloader'
 
 export default function People() {
   const tableHeader = [
@@ -20,7 +20,6 @@ export default function People() {
 
   if (error) return <div>Failed to load data</div>
   if (!data) return <Preloader />
-  console.log({ data })
   return (
     <Layout>
     <Table 
